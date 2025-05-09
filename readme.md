@@ -10,7 +10,7 @@ Design: Custom design and logic by the developer.
 
 ## 👩‍🏫 How to Use
 
-    Enter city and get info
+    Enter city name (works with Europe capitals) and get info
 
 ## 🎯 Project Features/Goals
 

@@ -21,19 +21,19 @@ buttonEl.addEventListener("click", () => {
 
 function participation(location) {
   for (const element of data) {
-    if (location === element.city) {
-      descriptionEl.innerText = element.participation;
-      if (element.participation === "rain") {
+    if (location.toLowerCase() === element.city.toLowerCase()) {
+      descriptionEl.innerText = element.precipitation;
+      if (element.precipitation === "rain") {
         emojiEl.innerHTML = "🌧️";
       }
-      if (element.participation === "sun") {
+      if (element.precipitation === "sun") {
         emojiEl.innerHTML = "☀️";
       }
-      if (element.participation === "cloudy") {
+      if (element.precipitation === "cloudy") {
         emojiEl.innerHTML = "☁️";
       }
       temperatureEL.innerText = `${element.temperature} \u00B0C`;
-      feelsEl.innerText = `Feels like: ${element.feels} \u00B0C`;
+      feelsEl.innerText = `Feels like: ${element.feels_like} \u00B0C`;
       humidityEl.innerText = `Humidity: ${element.humidity}%`;
       windEl.innerText = `Wind speed: ${element.wind} m/s`;
     }
