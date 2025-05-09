@@ -24,13 +24,13 @@ function participation(location) {
     if (location === element.city) {
       descriptionEl.innerText = element.participation;
       if (element.participation === "rain") {
-        emojiEl.innerHTML = "🌧";
+        emojiEl.innerHTML = "🌧️";
       }
       if (element.participation === "sun") {
-        emojiEl.innerHTML = "☀";
+        emojiEl.innerHTML = "☀️";
       }
       if (element.participation === "cloudy") {
-        emojiEl.innerHTML = "☁";
+        emojiEl.innerHTML = "☁️";
       }
       temperatureEL.innerText = `${element.temperature} \u00B0C`;
       feelsEl.innerText = `Feels like: ${element.feels} \u00B0C`;
