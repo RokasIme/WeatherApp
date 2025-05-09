@@ -3,7 +3,7 @@ export const data = [
     city: "Vilnius",
     participation: "rain",
     temperature: 12,
-    feels: 12,
+    feels: 11,
     humidity: 92,
     wind: 8.75,
   },
@@ -25,7 +25,7 @@ export const data = [
   },
   {
     city: "Oslas",
-    participation: "claudy",
+    participation: "cloudy",
     temperature: 8,
     feels: 3,
     humidity: 80,

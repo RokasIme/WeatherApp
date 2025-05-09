@@ -73,3 +73,7 @@ button {
 .blocks p {
   margin: 0;
 }
+
+.emoji {
+  font-size: 3rem;
+}
