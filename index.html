@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather APP</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/dropdowns.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -33,6 +34,21 @@
       </div>
     </div>
 
+    <div
+      class="dropdown-menu d-block position-static pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px"
+      data-bs-theme="light"
+      data-bs-toggle="dropdown"
+    >
+      <form class="p-2 mb-2 bg-body-tertiary border-bottom">
+        <input
+          type="search"
+          class="form-control"
+          autocomplete="false"
+          placeholder="Type to filter..."
+        />
+      </form>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js" type="module"></script>
     <script src="./index.js" type="module"></script>
   </body>
 </html>
